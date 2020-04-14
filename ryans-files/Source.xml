@@ -3,7 +3,7 @@
 	<info>
 		<name>Source</name>
 		<update version="1.0">
-			<file name="source.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/Source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/source.xml" />
 		</update>
 	</info>
 	<element name="Ryan" type="Source" source="Core" id="ID_SOURCE_RYAN">

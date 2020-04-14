@@ -4,8 +4,8 @@
 		<name>Ranger</name>
 		<description>The Ranger class from The Treantmonk Variant.</description>
 		<author url="https://treantmonk.wordpress.com/the-treantmonk-variant/">Treantmonk</author>
-		<update version="0.2.9">
-			<file name="class-ranger.xml" url=""/>
+		<update version="1.0">
+			<file name="class-ranger.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/class-ranger.xml"/>
 		</update>
 	</info>
 

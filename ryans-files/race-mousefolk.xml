@@ -2,10 +2,10 @@
 <elements>
 	<info>
 		<name>Mousefolk</name>
-		<description></description>
+		<description>Mousefolk Race</description>
 		<author url="https://www.dandwiki.com/wiki/Mousefolk_(5e_Race)">DnD Wiki</author>
-		<update version="0.1.6">
-			<file name="mousefolk.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/races/race-halfling.xml" />
+		<update version="1.0">
+			<file name="mousefolk.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/race-mousefolk.xml" />
 		</update>
 	</info>
 
@@ -69,15 +69,15 @@
 
 	<element name="Mousefolk Weapon Training" type="Racial Trait" source="Ryan" id="ID_RACIAL_TRAIT_MOUSE_WEAPON_TRAINING">
 		<description>
-			<p>You have proficiency with the rapier, shortsword, shortbow, and handaxe.</p>
+			<p>You have proficiency with the rapier, shortsword, light crossbow and handaxe.</p>
 		</description>
 		<sheet display="false">
-			<description>You have proficiency with the rapier, shortsword, shortbow, and handaxe.</description>
+			<description>You have proficiency with the rapier, shortsword, light crossbow, and handaxe.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
 		</rules>
 	</element>

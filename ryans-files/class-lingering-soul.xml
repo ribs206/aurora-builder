@@ -2,10 +2,10 @@
 <elements>
     <info>
         <name>Lingering Soul</name>
-        <description>Lingering Soul.</description>
+        <description>Lingering Soul Class</description>
         <author url="https://img.fireden.net/tg/image/1511/28/1511285281092.pdf">Matthew Mercer</author>
         <update version="1.0">
-            <file name="class-lingering-soul.xml" url="" />
+            <file name="class-lingering-soul.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/class-lingering-soul.xml" />
         </update>
     </info>
     <element name="Lingering Soul" type="Class" source="Ryan" id="ID_CRIT_CLASS_LINGERING_SOUL">

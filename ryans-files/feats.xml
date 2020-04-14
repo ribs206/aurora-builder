@@ -2,13 +2,14 @@
 <elements>
 	<info>
 		<name>Feats</name>
-		<description>Custom Feats.</description>
-		<author url="">Ryan</author>
-		<update version="0.1.4">
-			<file name="feats.xml" url="" />
+		<description>Feats from The Treantmonk Variant</description>
+		<author url="https://treantmonk.wordpress.com/the-treantmonk-variant/">Treantmonk</author>
+		<update version="0.1">
+			<file name="feats.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/feats.xml" />
 		</update>
 	</info>
 
+	<!-- Teat Feat for Carl's Game
 	<element name="Superior Focus" type="Feat" source="Ryan" id="ID_RYAN_FEAT_SUPERIOR_FOCUS">
 		<prerequisite>The ability to cast at least one spell, Character Level 8 or higher</prerequisite>
 		<requirements>[type:spell],[level:8]</requirements>
@@ -20,6 +21,7 @@
 			<description>You are able to maintain concentration on two spells simultaneously. When you are concentrating on two spells at the same time, you have disadvantage on ability checks and saveing throws.</description>
 		</sheet>
 	</element>
+	-->
 	
 	<element name="Armor Specialist" type="Feat" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST">
 		<description>

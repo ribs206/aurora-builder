@@ -5,13 +5,13 @@
 		<description>Custom Background</description>
 		<author>Ryan</author>
 		<update version="1.0">
-			<file name="custom-background.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/custom-background.xml" />
+			<file name="background-custom.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/background-custom.xml" />
 		</update>
 	</info>
 
 	<element name="Custom Background" type="Background" source="Ryan" id="ID_BACKGROUND_CUSTOM">
 		<description>
-			<p>This is a custom background. You get to choose 2 skill proficiencies, and any combination of 2 languages, tool, and/or instrument proficiencies.</p>
+			<p>This is a custom background. You get to choose 2 skill proficiencies and any combination of 2 languages, tool, and/or instrument proficiencies.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong>Two of your choice</li>
 				<li><strong>Languages:</strong>Two of your choice</li>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.4">
-			<file name="gestalt-artificer-wizard.xml" url="" />
+		<name>Artificer/Wizard</name>
+		<description>Artificer/Wizard Gestalt Class</description>
+		<author url="">Ryan</author>
+		<update version="1.0">
+			<file name="gestalt-artificer-wizard.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/gestalt-artificer-wizard.xml" />
 		</update>
 	</info>
 	

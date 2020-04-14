@@ -2,10 +2,10 @@
 <elements>
 	<info>
 		<name>Rogue/Warlock</name>
-		<description>Gestalted Rogue/Warlock.</description>
+		<description>Rogue/Warlock Gestalt Class</description>
 		<author url="">Ryan</author>
-		<update version="0.3.6">
-			<file name="gestalt-rogue-warlock.xml" url="" />
+		<update version="1.0">
+			<file name="gestalt-rogue-warlock.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/gestalt-rogue-warlock.xml" />
 		</update>
 	</info>
 

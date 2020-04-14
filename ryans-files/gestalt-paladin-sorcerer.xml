@@ -2,10 +2,10 @@
 <elements>
 	<info>
 		<name>Paladin/Sorcerer</name>
-		<description>Paladin/Sorcerer</description>
+		<description>Paladin/Sorcerer Gestalt Class</description>
 		<author url="">Ryan</author>
-		<update version="0.2.7">
-			<file name="gestalt-paladin-sorcerer.xml" url="" />
+		<update version="1.0">
+			<file name="gestalt-paladin-sorcerer.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/gestalt-paladin-sorcerer.xml" />
 		</update>
 	</info>
 
