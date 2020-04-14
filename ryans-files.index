@@ -2,11 +2,20 @@
 <index>
   <info>
     <update version="1.0">
-      <file name="aurora-stuff.index" url="http://hosting.com/files/sample.index" />
+      <file name="aurora-stuff.index" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files.index" />
     </update>
   </info>
   <files>
-    <file name="source.xml" url="http://hosting.com/files/source.xml" />
-    <file name="items.xml" url="http://hosting.com/files/items.xml" />
+    <file name="source.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/Source.xml" />
+	
+    <file name="background.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/Background.xml" />
+	<file name="lingering-soul.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/Lingering-Soul.xml" />
+	<file name="mousefolk.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/Mousefolk.xml" />
+	<file name="warforged.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/warforged.xml" />
+	<file name="class-ranger.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/class-ranger.xml" />
+	<file name="gestalt-artificer-wizard.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/gestalt-artificer-wizard.xml" />
+	<file name="gestalt-paladin-sorcerer.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/gestalt-paladin-sorcerer.xml" />
+	<file name="gestalt-rogue-warlock.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/gestalt-rogue-warlock.xml" />
+	<file name="feats.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/feats.xml" />
   </files>
 </index>
