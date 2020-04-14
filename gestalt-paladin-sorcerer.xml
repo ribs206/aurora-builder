@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Paladin/Sorcerer</name>
+		<description>Paladin/Sorcerer</description>
+		<author url="">Ryan</author>
+		<update version="0.2.7">
+			<file name="gestalt-paladin-sorcerer.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Paladin/Sorcerer" type="Class" source="Ryan" id="ID_RYAN_CLASS_PALADIN_SORCERER">
+		<description>
+			<h3>CLASS FEATURES</h3>
+			<p>As a paladi/sorcerer, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d10 per level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> All armor, shields</li>
+                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Two of Constitution, Charisma, or Wisdom</li>
+                <li><strong>Skills:</strong> Choose two from Arcana, Athletics, Deception, Insight, Intimidation, Medicine, Persuasion, and Religion</li>
+            </ul>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-10">Sorcery Points</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Sorcerer Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td>—</td><td class="left">Sorcerous Origin, Sorcerer Spellcasting, Divine Sense, Lay on Hands</td><td>4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td>2</td><td class="left">Paladin Spellcasting, Divine Smite, Fighting Style, Font of Magic</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td>3</td><td class="left">Sacred Oath, Divine Health, Metamagic</td><td>4</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td>4</td><td class="left">Ability Score Improvement</td><td>5</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td>5</td><td class="left">Extra Attack</td><td>5</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td>6</td><td class="left">Sorcerous Origin feature, Aura of Protection</td><td>5</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td>7</td><td class="left">Sacred Oath feature</td><td>5</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td>8</td><td class="left">Ability Score Improvement</td><td>5</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td>9</td><td class="left">—</td><td>5</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td>10</td><td class="left">Aura of Courage, Metamagic</td><td>6</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td>11</td><td class="left">Improved Divine Smite</td><td>6</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td>12</td><td class="left">Ability Score Improvement</td><td>6</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td>13</td><td class="left">—</td><td>6</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14th</td><td>14</td><td class="left">Sorcerous Origin feature, Cleansing Touch</td><td>6</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15th</td><td>15</td><td class="left">Sacred Oath feature</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16th</td><td>16</td><td class="left">Ability Score Improvement</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17th</td><td>17</td><td class="left">Metamagic</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18th</td><td>18</td><td class="left">Sorcerous Origin feature, Aura improvements</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19th</td><td>19</td><td class="left">Ability Score Improvement</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20th</td><td>20</td><td class="left">Sacred Oath feature, Sorcerous Restoration</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SENSE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SPELLCASTING" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SMITE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_FIGHTING_STYLE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SACRED_OATH" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_HEALTH" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_EXTRA_ATTACK" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" />
+		</description>
+		<sheet display="false">
+			<description>A spellcaster who draws on inherent magic from a gift or bloodline.</description>
+		</sheet>
+		<setters>
+			<set name="short">A spellcaster who draws on inherent magic from a gift or bloodline.</set>
+			<set name="hd">d6</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			
+			<select type="Proficiency" name="Saving Throw Proficiency, Paladin/Sorcerer" supports="ID_PROFICIENCY_SAVINGTHROW_CHARISMA|ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION|ID_PROFICIENCY_SAVINGTHROW_WISDOM" number="2" />
+			
+			<select type="Proficiency" name="Skill Proficiency (Paladin/Sorcerer)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_RELIGION" number="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SENSE" level="1" />
+			<grant type="Class Feature" id="ID_RYAN_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SPELLCASTING" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SMITE" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_FIGHTING_STYLE" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SACRED_OATH" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_HEALTH" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_EXTRA_ATTACK" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION" level="6" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE" level="10" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE" level="11" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH" level="14" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" level="20" />
+		</rules>
+	</element>
+	
+	<element name="Lay on Hands" type="Class Feature" source="Ryan" id="ID_RYAN_CLASS_FEATURE_PALADIN_LAY_ON_HANDS">
+		<description>
+			<p>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.</p>
+			<p class="indent">As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.</p>
+			<p class="indent">Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.</p>
+			<p class="indent">This feature has no effect on undead and constructs.</p>
+		</description>
+		<sheet action="Action" usage="{{lay on hands:hp pool}}/Long Rest">
+			<description>You can touch a creature and draw power from the pool to restore a number of hp to that creature, up to the maximum amount remaining in your pool. 
+			You can expend 5 hp from your pool of healing to cure the target of one disease or neutralize one poison affecting it.
+			This feature has no effect on undead and constructs.</description>
+		</sheet>
+		<rules>
+			<stat name="lay on hands:hp pool" value="level:paladin/sorcerer" />
+			<stat name="lay on hands:hp pool" value="level:paladin/sorcerer" />
+			<stat name="lay on hands:hp pool" value="level:paladin/sorcerer" />
+			<stat name="lay on hands:hp pool" value="level:paladin/sorcerer" />
+			<stat name="lay on hands:hp pool" value="level:paladin/sorcerer" />
+		</rules>
+	</element>
+</elements>

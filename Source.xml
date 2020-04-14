@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml" url="" />
+		</update>
+	</info>
+	<element name="Ryan" type="Source" source="Core" id="ID_SOURCE_RYAN">
+		<description>
+			<![CDATA[<p>This is custom stuff that Ryan has made.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">RYAN</set>
+			<set name="url" />
+			<set name="author" abbreviation="RE">Ryan Egdorf</set>
+			<set name="third-party">true</set>
+		</setters>
+	</element>
+	<element name="Treantmonk" type="Source" source="Core" id="ID_SOURCE_TREANTMONK">
+		<description>
+			<![CDATA[<p>This is custom stuff that Treantmonk has made.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">TREANT</set>
+			<set name="url">https://treantmonk.wordpress.com/the-treantmonk-variant/</set>
+			<set name="author" abbreviation="RE">Treantmonk</set>
+			<set name="third-party">true</set>
+		</setters>
+	</element>
+</elements>

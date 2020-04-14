@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Custom Background</name>
+		<description>Custom Background</description>
+		<author>Ryan</author>
+		<update version="0.0.5">
+			<file name="Background.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Custom Background" type="Background" source="Ryan" id="ID_BACKGROUND_CUSTOM">
+		<description>
+			<p>This is a custom background. You get to choose 2 skill proficiencies, and any combination of 2 languages, tool, and/or instrument proficiencies.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong>Two of your choice</li>
+				<li><strong>Languages:</strong>Two of your choice</li>
+				<li><strong>Equipment:</strong>A tool or instrument you are proficient with(or any if you are not proficient), an equipment pack of choice, a set of common clothes, and a belt pouch containing 15 gp</li>
+			</ul>
+			<p>You get to choose any background feature you want from any of the available backgrounds.</p>
+			<h5>CHARACTERISTICS</h5>
+			<p>Fuck 'em, just be who you want to be.</p>
+		</description>
+		<setters>
+			<set name="short">2 skills, 2 languages, tools, or instruments</set>
+		</setters>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency" number="2" supports="Skill" />
+			<select type="Background Feature" name="How many languages are you taking?" supports="Custom Background Language Helper"/>
+			<select type="Background Feature" name="Background Feature" supports="Background Feature"/>
+		</rules>
+	</element>
+	
+	<element name="0 Languages" type="Background Feature" source="Ryan" id="ID_BACKGROUND_FEATURE_CUSTOM_HELPER_0">
+		<supports>Custom Background Language Helper</supports>
+		<description>
+			<p>You are not taking any languages from your background.</p>
+		</description>
+		<sheet />
+		<rules>
+			<select type="Proficiency" name="Tool or Instrument Proficiency, Custom Background" number="2" supports="Tool||Musical Instrument" />
+		</rules>
+	</element>
+	<element name="1 Language" type="Background Feature" source="Ryan" id="ID_BACKGROUND_FEATURE_CUSTOM_HELPER_1">
+		<supports>Custom Background Language Helper</supports>
+		<description>
+			<p>You are taking 1 language from your background.</p>
+		</description>
+		<sheet />
+		<rules>
+			<select type="Language" name="Custom Background Language" supports="Standard||Exotic" />
+			<select type="Proficiency" name="Tool or Instrument Proficiency, Custom Background" supports="Tool||Musical Instrument" />
+		</rules>
+	</element>
+	<element name="2 Languages" type="Background Feature" source="Ryan" id="ID_BACKGROUND_FEATURE_CUSTOM_HELPER_2">
+		<supports>Custom Background Language Helper</supports>
+		<description>
+			<p>You are taking 2 languages from your background.</p>
+		</description>
+		<sheet />
+		<rules>
+			<select type="Language" name="Custom Background Language" number="2" supports="Standard||Exotic" />
+		</rules>
+	</element>
+</elements>

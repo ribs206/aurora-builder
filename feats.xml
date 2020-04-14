@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Feats</name>
+		<description>Custom Feats.</description>
+		<author url="">Ryan</author>
+		<update version="0.1.4">
+			<file name="feats.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Superior Focus" type="Feat" source="Ryan" id="ID_RYAN_FEAT_SUPERIOR_FOCUS">
+		<prerequisite>The ability to cast at least one spell, Character Level 8 or higher</prerequisite>
+		<requirements>[type:spell],[level:8]</requirements>
+		<description>
+			<p>You are able to maintain concentration on two spells simultaneously.</p>
+			<p class="indent">When you are concentrating on two spells at the same time, you have disadvantage on ability checks and saveing throws.</p>
+		</description>
+		<sheet>
+			<description>You are able to maintain concentration on two spells simultaneously. When you are concentrating on two spells at the same time, you have disadvantage on ability checks and saveing throws.</description>
+		</sheet>
+	</element>
+	
+	<element name="Armor Specialist" type="Feat" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST">
+		<description>
+			<p>You have studied the use of armor, and have improved your ability to use armor effectively. </p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="feat:features" value="3"/>
+			<select type="Feat Feature" name="Armor Specialist" number="3" supports="Armor Specialist" />
+		</rules>
+	</element>
+	<element name="Light Armor Proficiency" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_LIGHT_PROF">
+		<supports>Armor Specialist</supports>
+		<requirements>!ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</requirements>
+		<description>
+			<p>You gain proficiency in light armor.</p>
+		</description>
+		<sheet alt="Armor Specialist, Light Armor Proficiency">
+			<description>You gain proficiency in light armor.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+		</rules>
+	</element>
+	<element name="Light Armor Mastery" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_LIGHT_MASTERY">
+		<supports>Armor Specialist</supports>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</requirements>
+		<description>
+			<p>While wearing light armor which you are proficient in, and you are damaged by a melee attack, you can use your reaction to move 5 feet in any direction without provoking an opportunity attack. </p>
+		</description>
+		<sheet alt="Armor Specialist, Light Armor Mastery" action="Reaction">
+			<description>While wearing light armor which you are proficient in, and you are damaged by a melee attack, you can use your reaction to move 5 feet in any direction without provoking an opportunity attack. </description>
+		</sheet>
+	</element>
+	<element name="Light Armor Versatility" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_LIGHT_VERS">
+		<supports>Armor Specialist</supports>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</requirements>
+		<description>
+			<p>You may wear a Chain Shirt or Hide armor as light armor for the sake of determining proficiency. When wearing a Chain Shirt or Hide armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.</p>
+		</description>
+		<sheet alt="Armor Specialist, Light Armor Versatility">
+			<description>You may wear a Chain Shirt or Hide armor as light armor for the sake of determining proficiency. When wearing a Chain Shirt or Hide armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher</description>
+		</sheet>
+		<rules>
+			<grant type="proficiency" id="ID_WOTC_ARMOR_MEDIUM_CHAIN_SHIRT"/>
+			<grant type="proficiency" id="ID_WOTC_ARMOR_MEDIUM_HIDE_ARMOR"/>
+		</rules>
+	</element>
+	<element name="Light Armor Mobility" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_LIGHT_MOBILITY">
+		<supports>Armor Specialist</supports>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</requirements>
+		<description>
+			<p>While wearing light armor, opportunity attacks are made against you with disadvantage.</p>
+		</description>
+		<sheet alt="Armor Specialist, Light Armor Mobility">
+			<description>While wearing light armor, opportunity attacks are made against you with disadvantage.</description>
+		</sheet>
+	</element>
+	<element name="Light Armor Defense" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_LIGHT_DEFENSE">
+		<supports>Armor Specialist</supports>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</requirements>
+		<description>
+			<p>While wearing light armor, you may add your armor's AC bonus to your Dexterity saving throws.</p>
+		</description>
+		<sheet alt="Armor Specialist, Light Armor Defense">
+			<description>While wearing light armor, you may add your armor's AC bonus to your Dexterity saving throws.</description>
+		</sheet>
+	</element>
+	<element name="Medium Armor Proficiency" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_MEDIUM_PROFICIENCY">
+		<supports>Armor Specialist</supports>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR,!ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR,!ID_TREANT_FEAT_ARMOR_SPECIALIST_LIGHT_PROF</requirements>
+		<description>
+			<p>You gain proficiency in medium armor (you must be proficient in light armor through a source other than this feat to choose this feature).</p>
+		</description>
+		<sheet alt="Armor Specialist, Medium Armor Proficiency">
+			<description>You gain proficiency in medium armor (you must be proficient in light armor through a source other than this feat to choose this feature).</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+		</rules>
+	</element>
+	<element name="Armored Stealth" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_ARMORED_STEALTH">
+		<supports>Armor Specialist</supports>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR</requirements>
+		<description>
+			<p>Wearing medium or heavy armor which you are proficient in doesn't impose disadvantage on your Dexterity (Stealth) checks.</p>
+		</description>
+		<sheet alt="Armor Specialist, Armored Stealth">
+			<description>Wearing medium or heavy armor which you are proficient in doesn't impose disadvantage on your Dexterity (Stealth) checks.</description>
+		</sheet>
+	</element>
+	<element name="Armored Agility" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_ARMORED_AGILITY">
+		<supports>Armor Specialist</supports>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR</requirements>
+		<description>
+			<p>When you wear medium armor you are proficient in, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.</p>
+		</description>
+		<sheet alt="Armor Specialist, Armored Agility">
+			<description>When you wear medium armor you are proficient in, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.</description>
+		</sheet>
+	</element>
+	<element name="Heavy Armor Proficiency" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_HEAVY_PROFICIENCY">
+		<supports>Armor Specialist</supports>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR,!ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR,!ID_TREANT_FEAT_ARMOR_SPECIALIST_MEDIUM_PROF</requirements>
+		<description>
+			<p>You gain proficiency in heavy armor (you must be proficient in medium armor from a source other than this feat to choose this feature).</p>
+		</description>
+		<sheet alt="Armor Specialist, Heavy Armor Proficiency">
+			<description>You gain proficiency in heavy armor (you must be proficient in medium armor from a source other than this feat to choose this feature). </description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+		</rules>
+	</element>
+	<element name="Armor Mastery" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_ARMOR_MASTERY">
+		<supports>Armor Specialist</supports>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR</requirements>
+		<description>
+			<p>While you are wearing medium or heavy armor you are proficient in, bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by your proficiency bonus. If you select this feature a second time, the damage reduction applies to all bludgeoning, piercing or slashing weapons. </p>
+		</description>
+		<sheet alt="Armor Specialist, Armor Mastery">
+			<description>While you are wearing medium or heavy armor you are proficient in, bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by your proficiency bonus. If you select this feature a second time, the damage reduction applies to all bludgeoning, piercing or slashing weapons.</description>
+		</sheet>
+	</element>
+	<element name="Heavy Armor Mobility" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_HEAVY_MOBILITY">
+		<supports>Armor Specialist</supports>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR</requirements>
+		<description>
+			<p>You may ignore the minimum Strength requirement of heavy armor you are proficient in.</p>
+		</description>
+		<sheet alt="Armor Specialist, Heavy Armor Mobility">
+			<description>You may ignore the minimum Strength requirement of heavy armor you are proficient in.</description>
+		</sheet>
+	</element>
+	<element name="Shield Proficiency" type="Feat Feature" source="Treantmonk" id="ID_TREANT_FEAT_ARMOR_SPECIALIST_SHIELD_PROFICIENCY">
+		<supports>Armor Specialist</supports>
+		<description>
+			<p>You gain proficiency in shields.</p>
+		</description>
+		<sheet alt="Armor Specialist, Heavy Armor Mobility">
+			<description>You gain proficiency in shields.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+		</rules>
+	</element>
+	
+	<element name="Battle Magic" type="Feat" source="Treantmonk" id="ID_TREANT_FEAT_BATTLE_MAGIC">
+		<prerequisite>The ability to cast at least one spell</prerequisite>
+		<requirements>[type:spell]</requirements>
+		<description>
+			<p>Your magic has been honed to use in combat, your quick thinking and specialized training provide certain advantages while fighting with spells.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Battle Magic" number="3" supports="Battle Magic" />
+		</rules>
+	</element>
+</elements>

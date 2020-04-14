@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.4">
+			<file name="gestalt-artificer-wizard.xml" url="" />
+		</update>
+	</info>
+	
+	<element name="Artificer/Wizard" type="Class" source="Ryan" id="ID_CLASS_ARTIFICER_WIZARD">
+		<description>
+			<p>This is a gestalted class combination of Artificer and Wizard.</p>
+			<h2>CLASS FEATURES</h2>
+			<p>As an Artificer/Wizard, you gain the following class features.</p>
+			<h5>HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d8 per level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per artificer level after 1st</li>
+			</ul>
+			<h5>PROFICIENCIES</h5>
+			<ul class="unstyled">
+				<li><strong>Armor:</strong> Light armor, medium armor, shields</li>
+				<li><strong>Weapons:</strong> Simple weapons</li>
+				<li><strong>Tools:</strong> Thieves’ tools, tinker’s tools, one type of artisan’s tools of your choice</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Choose two of Constitution, Intelligence, or Wisdom</li>
+				<li><strong>Skills:</strong> Choose two from Arcana, History, Insight, Investigation, Medicine, Nature, Perception, Religion, and Sleight of Hand</li>
+			</ul>
+			<h5>EQUIPMENT</h5>
+			<p>As well as the items offered by your background, you start with 200 gp to buy your equipment.</p>
+			<div class="sidebar">
+				<h5>OPTIONAL RULE: FIREARM PROFICIENCY</h5>
+				<p>The secrets of creating and operating gunpowder weapons have been discovered in various corners of the D&amp;D multiverse. If your Dungeon Master uses the rules on firearms in chapter 9 of the Dungeon Master’s Guide and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them.</p>
+			</div>
+			
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Infusions Known</td><td class="col-10">Infused Items</td><td class="col-10">Artificer Cantrips Known</td><td class="col-10">Wizard Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Artificer/Wizard Spellcasting, Arcane Recovery, Magical Tinkering</td><td>—</td><td>—</td><td>2</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Arcane Tradition, Infuse Item</td><td>4</td><td>2</td><td>2</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Artificer Specialist, The Right Tool for the Job</td><td>4</td><td>2</td><td>2</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>2</td><td>2</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Artificer Specialist feature</td><td>4</td><td>2</td><td>2</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Arcane Tradition feature, Tool Expertise</td><td>6</td><td>3</td><td>2</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Flash of Genius</td><td>6</td><td>3</td><td>2</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>6</td><td>3</td><td>2</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">Artificer Specialist feature</td><td>6</td><td>3</td><td>2</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Arcane Tradition feature, Magic Item Adept</td><td>8</td><td>4</td><td>3</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">Spell-Storing Item</td><td>8</td><td>4</td><td>3</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>8</td><td>4</td><td>3</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td>8</td><td>4</td><td>3</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Arcane Tradition feature, Magic Item Savant</td><td>10</td><td>5</td><td>4</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Artificer Specialist feature</td><td>10</td><td>5</td><td>4</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>10</td><td>5</td><td>4</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>10</td><td>5</td><td>4</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Magic Item Master, Spell Mastery</td><td>12</td><td>6</td><td>4</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>12</td><td>6</td><td>4</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20th</td><td class="left">Signature Spell, Soul of Artifice</td><td>12</td><td>6</td><td>4</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+			
+			<div element="ID_RYAN_CLASS_FEATURE_ARTIFICER_SPELLCASTING" />
+			<div element="ID_RYAN_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_MAGICAL_TINKERING" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSE_ITEM" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_ARTIFICER_SPECIALIST" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_THE_RIGHT_TOOL_FOR_THE_JOB" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_TOOL_EXPERTISE" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_FLASH_OF_GENIUS" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_ADEPT" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_SPELL_STORING_ITEM" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_SAVANT" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_MASTER" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY" />
+			<div element="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_SOUL_OF_ARTIFICE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" />
+		</description>
+		<setters>
+			<set name="short">Masters of all things involving practical magic, artificer/wizards are supreme inventors and spellcasters.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
+			<select type="Proficiency" name="Artisan Tool, Artificer/Wizard" supports="Artisan tools" />
+			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS" />
+
+			<select type="Proficiency" name="Saving Throw Proficiency, Artificer/Wizard" supports="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION|ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE|ID_PROFICIENCY_SAVINGTHROW_WISDOM" number="2" />
+			
+			<select type="Proficiency" name="Skill Proficiency, Artificer/Wizard" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" number="2" />
+
+			<grant type="Class Feature" id="ID_RYAN_CLASS_FEATURE_ARTIFICER_SPELLCASTING" level="1" />
+			<grant type="Class Feature" id="ID_RYAN_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" level="1" />
+			<grant type="Class Feature" id="ID_RYAN_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_MAGICAL_TINKERING" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSE_ITEM" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_ARTIFICER_SPECIALIST" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_THE_RIGHT_TOOL_FOR_THE_JOB" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_ABILITY_SCORE_IMPROVEMENT" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_TOOL_EXPERTISE" level="6" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_FLASH_OF_GENIUS" level="7" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_ADEPT" level="10" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_SPELL_STORING_ITEM" level="11" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_SAVANT" level="14" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_MAGIC_ITEM_MASTER" level="18" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELL_MASTERY" level="18" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" level="20" />
+			<grant type="Class Feature" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_SOUL_OF_ARTIFICE" level="20" />
+		</rules>
+	</element>
+	<element name="Artificer/Wizard Spellcasting" type="Class Feature" source="Ryan" id="ID_RYAN_CLASS_FEATURE_ARTIFICER_SPELLCASTING">
+		<description>
+			<p>As a student of artifice and arcane magic, you must have either a spellbook or some other device containing spells that show the first glimmerings of your true power. This spell containment device is where your wizard spells are stored and accessed from.</p>
+			<h5>CANTRIPS</h5>
+			<p>At 1st level, you know three cantrips of your choice from the wizard spell list and two cantrips of your choice from the artificer spell list. You learn additional cantrips of your choice at higher levels, as shown in the Cantrips Known columns of the Artificer/Wizard table.</p>
+			<h5>SPELL CONTAINMENT DEVICE</h5>
+			<p>At 1st level, you have a spell containment device containing six 1st­level wizard spells of your choice. Your spell containment device is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind.</p>
+			<h5>FOCUS REQUIRED</h5>
+			<p>In order to produce your artificer spells, you must cast them through an arcane focus. Due to your unique understanding of magic this can either be a normal arcane focus with which you are proficient, an artisan tool with which you are proficient, or your spell containment device.</p>
+			<h5>PREPARING AND CASTING SPELLS</h5>
+			<p>The Artificer/Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">You prepare two pools of spells to choose from daily. Your artificer spells and your wizard spells.</p>
+			<p class="indent">In order to prepare the list of wizard spells that are available for you to cast you must choose a number of wizard spells from your spell containment device equal to your Intelligence modifier + your level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+			<p class="indent">In order to prepare the list of artificer spells that are available for you to cast you must choose a number of wizard spells from the artificer spell list equal to your Intelligence modifier + half your level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+			<p class="indent">For example, if you’re a 3rd-level artificer/wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level from your wizard spell containment device and six spells of 1st or 2nd level from the artificer spell list. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</p>
+			<p class="indent">You can change your list of prepared spells when you finish a long rest.</p>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Intelligence is your spellcasting ability for your spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+			</center>
+			<h5>RITUAL CASTING</h5>
+			<p>You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spell containment device. You don’t need to have the spell prepared.</p>
+			<p>You can cast an artificer spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
+			<h5>LEARNING SPELLS OF 1ST LEVEL AND HIGHER</h5>
+			<p>Each time you gain a level, you can add two wizard spells of your choice to your Spell Containment Device for free. Each of these spells must be of a level for which you have spell slots, as shown on the Artificer/Wizard table. On your adventures, you might find other spells that you can add to your Spell Containment Device (see the “Spell Containment Device” section).</p>
+		</description>
+		<sheet display="false">
+			<description>You can prepare {{wizard:spellcasting:prepare}} spells from the your spellbook. You use an arcane focus to cast spells. and can also cast wizard spells as a ritual.</description>
+		</sheet>
+		<spellcasting name="Artificer" ability="Intelligence" prepare="true">
+			<list known="true">Artificer</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+			
+			<stat name="artificer:spellcasting:slots:1" value="1" level="1" />
+			<stat name="artificer:spellcasting:slots:2" value="1" level="5" />
+			<stat name="artificer:spellcasting:slots:3" value="1" level="9" />
+			<stat name="artificer:spellcasting:slots:4" value="1" level="13" />
+			<stat name="artificer:spellcasting:slots:5" value="1" level="17" />
+			
+			<stat name="artificer:spellcasting:prepare" value="intelligence:modifier" />
+			<stat name="artificer:spellcasting:prepare" value="level:artificer/wizard:half" />
+			<select type="Spell" name="Cantrip, Artificer" supports="$(spellcasting:list), 0" number="2" spellcasting="Artificer" />
+			<select type="Spell" name="Cantrip, Artificer" supports="$(spellcasting:list), 0" number="1" spellcasting="Artificer" level="10" />
+			<select type="Spell" name="Cantrip, Artificer" supports="$(spellcasting:list), 0" number="1" spellcasting="Artificer" level="14" />
+		</rules>
+	</element>
+	<element name="Spell Containment Device" type="Class Feature" source="Ryan" id="ID_RYAN_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
+		<description>
+			<p>The Spells that you add to your Spell Containment Device as you gain levels reflect the arcane Research you conduct on your own, as well as intellectual breakthroughs you have had about the Nature of the multiverse. You might find other Spells during your Adventures. You could discover a spell recorded on a scroll in an evil wizard’s chest, for example, or in a dusty tome in an ancient Library.</p>
+			<h5>COPYING A SPELL INTO THE DEVICE</h5>
+			<p>When you find a Wizard spell of 1st Level or higher, you can add it to your Spell Containment Device if it is of a Spell Level you can prepare and if you can spare the time to decipher and copy it.</p>
+			<p>Copying that spell into your Spell Containment Device involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the Wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your Spell Containment Device using your own notation.</p>
+			<p>For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material Components you expend as you experiment with the spell to Master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other Spells.</p>
+			<h5>REPLACING THE DEVICE</h5>
+			<p>You can copy a spell from your own Spell Containment Device into another device—for example, if you want to make a backup copy of your Spell Containment Device. This is just like copying a new spell into your Spell Containment Device, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.</p>
+			<p>If you lose your Spell Containment Device, you can use the same procedure to transcribe the Spells that you have prepared into a new Spell Containment Device. Filling out the remainder of your Spell Containment Device requires you to find new Spells to do so, as normal. For this reason, many wizards keep backup Spell Containment Devices in a safe place.</p>
+		</description>
+		<sheet display="false">
+			<description>You can prepare {{wizard:spellcasting:prepare}} spells from the your Spell Containment Device. You use an arcane focus to cast spells. and can also cast wizard spells as a ritual.</description>
+		</sheet>
+		<spellcasting name="Wizard" ability="Intelligence" prepare="true">
+			<list>Wizard</list>
+		</spellcasting>
+		<rules>
+			<stat name="wizard:spellcasting:slots:1" value="2" level="1" />
+			<stat name="wizard:spellcasting:slots:1" value="1" level="2" />
+			<stat name="wizard:spellcasting:slots:1" value="1" level="3" />
+
+			<stat name="wizard:spellcasting:slots:2" value="2" level="3" />
+			<stat name="wizard:spellcasting:slots:2" value="1" level="4" />
+			<stat name="wizard:spellcasting:slots:3" value="2" level="5" />
+			<stat name="wizard:spellcasting:slots:3" value="1" level="6" />
+			<stat name="wizard:spellcasting:slots:4" value="1" level="7" />
+			<stat name="wizard:spellcasting:slots:4" value="1" level="8" />
+			<stat name="wizard:spellcasting:slots:4" value="1" level="9" />
+			<stat name="wizard:spellcasting:slots:5" value="1" level="9" />
+			<stat name="wizard:spellcasting:slots:5" value="1" level="10" />
+			<stat name="wizard:spellcasting:slots:5" value="1" level="18" />
+			<stat name="wizard:spellcasting:slots:6" value="1" level="11" />
+			<stat name="wizard:spellcasting:slots:6" value="1" level="19" />
+			<stat name="wizard:spellcasting:slots:7" value="1" level="13" />
+			<stat name="wizard:spellcasting:slots:7" value="1" level="20" />
+			<stat name="wizard:spellcasting:slots:8" value="1" level="15" />
+			<stat name="wizard:spellcasting:slots:9" value="1" level="17" />
+
+			<stat name="wizard:spellcasting:prepare" value="intelligence:modifier" />
+			<stat name="wizard:spellcasting:prepare" value="level:artificer/wizard" />
+
+			<select type="Spell" name="Cantrip (Wizard)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Wizard" />
+			<select type="Spell" name="Cantrip (Wizard)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Wizard" />
+			<select type="Spell" name="Cantrip (Wizard)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Wizard" />
+
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), 1" level="1" number="6" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="10" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="12" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="14" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="16" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="18" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" number="2" spellcasting="Wizard" />
+			<select type="Spell" name="Spell Containment Device (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="Wizard" />
+			
+			<grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" spellcasting="Wizard" prepared="true" />
+		</rules>
+	</element>
+	<element name="Arcane Recovery" type="Class Feature" source="Ryan" id="ID_RYAN_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY">
+		<description>
+			<p>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.</p>
+			<p class="indent">For example, if you’re a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</p>
+		</description>
+		<sheet>
+			<description>Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than {{level:artificer/wizard:half:up}}.</description>
+		</sheet>
+	</element>
+	
+	<element name="School of Abjuration" type="Archetype" source="Ryan" id="ID_RYAN_ARCHETYPE_WIZARD_SCHOOL_OF_ABJURATION">
+		<supports>Arcane Tradition</supports>
+		<description>
+			<p>The School of Abjuration emphasizes magic that blocks, banishes, or protects. Detractors of this school say that its tradition is about denial, negation rather than positive assertion. You understand, however, that ending harmful effects, protecting the weak, and banishing evil influences is anything but a philosophical void. It is a proud and respected vocation.</p>
+			<p class="indent">Called abjurers, members of this school are sought when baleful spirits require exorcism, when important locations must be guarded against magical spying, and when portals to other planes of existence must be closed.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ABJURATION_SAVANT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ARCANE_WARD" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_PROJECTED_WARD" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_IMPROVED_ABJURATION" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_SPELL_RESISTANCE" />
+		</description>
+		<sheet display="false">
+			<description>The School of Abjuration emphasizes magic that blocks, banishes, or protects. Detractors of this school say that its tradition is about denial, negation rather than positive assertion.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ABJURATION_SAVANT" level="2"/>
+			<grant type="Archetype Feature" id="ID_RYAN_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ARCANE_WARD" level="2"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_PROJECTED_WARD" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_IMPROVED_ABJURATION" level="10"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_SPELL_RESISTANCE" level="14"/>
+		</rules>
+	</element>
+	<element name="Arcane Ward" type="Archetype Feature" source="RYAN" id="ID_RYAN_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ARCANE_WARD">
+		<description>
+			<p>Starting at 2nd level, you can weave magic around yourself for protection. When you cast an abjuration spell of 1st level or higher, you can simultaneously use a strand of the spell’s magic to create a magical ward on yourself that lasts until you finish a long rest. The ward has hit points equal to twice your level + your Intelligence modifier. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage.</p>
+			<p class="indent">While the ward has 0 hit points, it can’t absorb damage, but its magic remains. Whenever you cast an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.</p>
+			<p class="indent">Once you create the ward, you can't create it again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When you cast an abjuration spell of 1st level or higher, you can create a magical ward on yourself that lasts until you finish a long rest. The ward has {{arcane ward:hp}} hp. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hp, you take any remaining damage.
+			While the ward has 0 hp, it can’t absorb damage, but its magic remains. Whenever you cast an abjuration spell of 1st level or higher, the ward regains a number of hp equal to twice the level of the spell.</description>
+		</sheet>
+		<rules>
+			<stat name="arcane ward:hp" value="level:artificer/wizard" />
+			<stat name="arcane ward:hp" value="level:artificer/wizard" />
+			<stat name="arcane ward:hp" value="intelligence:modifier" />
+		</rules>
+	</element>
+	
+	<element name="Armorer" type="Archetype" source="Unearthed Arcana: Subclasses, Part 3" id="ID_WOTC_UA20200224_ARCHETYPE_ARTIFICER_ARMORER">
+		<supports>Artificer Specialist</supports>
+		<description>
+			<p>An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer’s magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.</p>
+			<div element="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE" />
+			<div element="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS" />
+			<div element="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_POWER_ARMOR" />
+			<div element="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL" />
+			<div element="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK" />
+			<div element="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS" />
+			<div element="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_TOOLS_OF_THE_TRADE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_ARMORER_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_POWER_ARMOR" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_EXTRA_ATTACK" level="5" />
+			<grant type="Archetype Feature" id="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODIFICATIONS" level="9" />
+			<grant type="Archetype Feature" id="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_PERFECTED_ARMOR" level="15" />
+		</rules>
+	</element>
+	<element name="Guardian" type="Archetype Feature" source="Ryan" id="ID_RYAN_ARCHETYPE_FEATURE_ARMORER_ARMOR_MODEL_GUARDIAN">
+		<supports>UA Armorer Armor Model</supports>
+		<description>
+			<p>You design your armor to be in the frontline of conflict. It has the following features:</p>
+			<ul class="unstyled mb">
+				<li><strong>Thunder Gauntlets.</strong> Your armored fists each count as a simple melee weapon, and each deals 1d8 thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.</li>
+				<li><strong>Defensive Field.</strong> You gain a bonus action that you can use on each of your turns to gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor.</li>
+			</ul>
+			<div class="sidebar">
+				<h5>Guardian Power Armor</h5>
+				<p>The selection you can make here is optional to display the features of your power armor in your features description area. A suit of power armor, guardian power armor, and perfected power armor is also available as equippable armor from the “Magic Armor” equipment section. Only when you have equipped the armor will you gain any benefits that are calculable.</p>
+			</div>
+		</description>
+		<sheet>
+			<description>You design your armor to be in the frontline of conflict.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_UA20200224_ARCHETYPE_FEATURE_ARMORER_MODEL_GUARDIAN_THUNDER_GAUNTLETS" />
+			<grant type="Archetype Feature" id="ID_RYAN_ARCHETYPE_FEATURE_ARMORER_MODEL_GUARDIAN_DEFENSIVE_FIELD" />			
+		</rules>
+	</element>
+	<element name="Defensive Field" type="Archetype Feature" source="Ryan" id="ID_RYAN_ARCHETYPE_FEATURE_ARMORER_MODEL_GUARDIAN_DEFENSIVE_FIELD">
+		<compendium display="false" />
+		<description>
+			<p>You gain a bonus action that you can use on each of your turns to gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You gain {{level:artificer/wizard}} temporary hp, replacing any temporary hp you already have. You lose these temporary hp if you doff the armor.</description>
+		</sheet>
+	</element>
+</elements>
