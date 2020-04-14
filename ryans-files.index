@@ -6,16 +6,26 @@
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/Source.xml" />
+		<!-- Source -->
+		<file name="source.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/source.xml" />
 		
-		<file name="background.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/Background.xml" />
-		<file name="lingering-soul.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/Lingering-Soul.xml" />
-		<file name="mousefolk.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/Mousefolk.xml" />
-		<file name="warforged.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/warforged.xml" />
+		<!-- Backgrounds -->
+		<file name="background-custom.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/background-custom.xml" />
+		
+		<!-- Classes -->
+		<file name="class-lingering-soul.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/class-lingering-soul.xml" />
 		<file name="class-ranger.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/class-ranger.xml" />
+		
+		<!-- Gestalt Classes -->
 		<file name="gestalt-artificer-wizard.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/gestalt-artificer-wizard.xml" />
 		<file name="gestalt-paladin-sorcerer.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/gestalt-paladin-sorcerer.xml" />
 		<file name="gestalt-rogue-warlock.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/gestalt-rogue-warlock.xml" />
+		
+		<!-- Feats -->
 		<file name="feats.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/feats.xml" />
+		
+		<!-- Races -->
+		<file name="race-mousefolk.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/race-mousefolk.xml" />
+		<file name="race-warforged.xml" url="https://raw.githubusercontent.com/ribs206/aurora-builder/master/ryans-files/race-warforged.xml" />
 	</files>
 </index>
