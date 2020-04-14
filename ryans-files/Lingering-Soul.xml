@@ -4,7 +4,7 @@
         <name>Lingering Soul</name>
         <description>Lingering Soul.</description>
         <author url="https://img.fireden.net/tg/image/1511/28/1511285281092.pdf">Matthew Mercer</author>
-        <update version="1.1">
+        <update version="1.0">
             <file name="class-bloodhunter.xml" url="" />
         </update>
     </info>
